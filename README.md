@@ -3,4 +3,4 @@ Adds more dangerous supernatural monsters to XedraWood, natural, supernatural, a
 
 Examples include: triffids who can control plants, mi-go psychics, strange lights in the swamps. 
 
-Best if also run with Megafauna but it's not required.  
+Best if also run with Megafauna for that prehistoric theme, but it's not required.  
