@@ -1,0 +1,22 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_SWAMP_TRAVEL_GHOST_LIGHT_SPAWN",
+    "recurrence": [ "15 minutes", "3 hours" ],
+    "global": true,
+    "run_for_npcs": false,
+    "condition": {
+      "and": [
+        { "one_in_chance": 12 },
+        { "not": "is_day" },
+        { "not": { "u_has_effect": "sleep" } },
+        "u_is_outside",
+        { "or": [ { "u_at_om_location": "forest_water" }, { "u_near_om_location": "river_center", "range": 1 } ] }
+      ]
+    },
+    "effect": [
+      { "u_spawn_monster": "mon_ghost_light", "real_count": [ 2, 4 ], "min_radius": 20, "max_radius": 50 },
+      { "u_message": "You see flickering lights in the distance." }
+    ]
+  }
+]
