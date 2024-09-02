@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "xe_innawood_fell_beasts",
+    "name": "XedraWood: <color_red>Fell Beasts</color>",
+    "authors": [ "StandingStorm" ],
+    "maintainers": [ "StandingStorm" ],
+    "description": "Additional enemies for XedraWood.",
+    "category": "content",
+    "dependencies": [ "xedra_evolved_innawoods" ]
+  }
