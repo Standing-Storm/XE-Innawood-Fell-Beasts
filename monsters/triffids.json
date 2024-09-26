@@ -38,7 +38,7 @@
       {
         "id": "triffid_vineweaver_druid_veggrasp",
         "type": "spell",
-        "spell_data": { "id": "druid_veggrasp", "min_level": 2 },
+        "spell_data": { "id": "triffid_veggrasp", "min_level": 2 },
         "cooldown": { "math": [ "15 + rand(30)" ] },
         "monster_message": "%1$s twitches its base and roots burst from the ground around %3$s."
       }
