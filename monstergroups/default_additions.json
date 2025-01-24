@@ -1,7 +1,7 @@
 [
   {
     "type": "monstergroup",
-    "name": "GROUP_TRIFFID",
+    "id": "GROUP_TRIFFID",
     "default": "mon_triffid",
     "monsters": [
       { "monster": "mon_triffid_seedshaper", "weight": 25, "cost_multiplier": 5 },
@@ -10,7 +10,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_TRIFFID_OUTER",
+    "id": "GROUP_TRIFFID_OUTER",
     "default": "mon_triffid",
     "monsters": [
       { "monster": "mon_triffid_seedshaper", "weight": 50, "cost_multiplier": 2 },
@@ -19,7 +19,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_TRIFFID_HEARTGUARDS",
+    "id": "GROUP_TRIFFID_HEARTGUARDS",
     "default": "mon_triffid",
     "monsters": [
       { "monster": "mon_triffid_seedshaper", "weight": 150, "cost_multiplier": 2 },
@@ -28,7 +28,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_MI-GO_CAMP_OM",
+    "id": "GROUP_MI-GO_CAMP_OM",
     "monsters": [
       { "monster": "mon_mi_go_mindrender", "weight": 50, "cost_multiplier": 20, "starts": "210 hours" },
       { "monster": "mon_mi_go_lightbringer", "weight": 50, "cost_multiplier": 2, "starts": "210 hours" },
@@ -37,7 +37,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_MI-GO_BASE_COMMON",
+    "id": "GROUP_MI-GO_BASE_COMMON",
     "monsters": [
       { "monster": "mon_mi_go_mindrender", "weight": 50, "cost_multiplier": 2, "starts": "210 hours" },
       { "monster": "mon_mi_go_lightbringer", "weight": 50, "cost_multiplier": 2, "starts": "210 hours" },
@@ -46,7 +46,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_MI-GO_BASE_CAPTORS",
+    "id": "GROUP_MI-GO_BASE_CAPTORS",
     "monsters": [
       { "monster": "mon_mi_go_mindrender", "weight": 300, "cost_multiplier": 2, "starts": "210 hours" },
       { "monster": "mon_mi_go_lightbringer", "weight": 300, "cost_multiplier": 2, "starts": "210 hours" },
@@ -55,7 +55,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_MI-GO_BASE_BOSS",
+    "id": "GROUP_MI-GO_BASE_BOSS",
     "monsters": [
       { "monster": "mon_mi_go_mindrender", "weight": 200, "cost_multiplier": 2 },
       { "monster": "mon_mi_go_mindrender", "weight": 50, "cost_multiplier": 5, "pack_size": [ 2, 3 ] },
