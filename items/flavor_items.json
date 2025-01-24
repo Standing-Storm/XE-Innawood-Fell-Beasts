@@ -9,7 +9,7 @@
     "volume": "2500 ml",
     "color": "green",
     "symbol": "%",
-    "price_postapoc": 0,
+    "price_postapoc": "0 cent",
     "material": [ "veggy" ],
     "flags": [ "TRADER_AVOID" ]
   }
