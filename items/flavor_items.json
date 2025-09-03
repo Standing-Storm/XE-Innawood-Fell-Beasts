@@ -1,6 +1,7 @@
 [
   {
-    "type": "GENERIC",
+    "type": "ITEM",
+    "category": "other",
     "id": "triffid_spellbook",
     "name": { "str": "chunk of plant matter", "str_pl": "chunks of plant matter" },
     "description": "This strange plant feels slightly oily and smells odd.  The smell seems to change slowly, from loamy earth to a rich vegetal smell to something acrid that burns your nose to an herbal scent, with no discernable pattern.  You're not sure what this is.",
@@ -9,7 +10,7 @@
     "volume": "2500 ml",
     "color": "green",
     "symbol": "%",
-    "price_postapoc": 0,
+    "price_postapoc": "0 cent",
     "material": [ "veggy" ],
     "flags": [ "TRADER_AVOID" ]
   }
