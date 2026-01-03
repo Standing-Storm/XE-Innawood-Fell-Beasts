@@ -76,6 +76,24 @@
   },
   {
     "type": "effect_type",
+    "id": "effect_monster_heightened_reflex_enhanced",
+    "name": [ "Heightened Reflexes" ],
+    "desc": [ "You are enhancing your speed and senses." ],
+    "show_in_info": true,
+    "removes_effects": [ "blind", "deaf" ],
+    "//": "VISION_RANGE enchant is a proxy for perception, which monsters do not have",
+    "enchantments": [
+      {
+        "values": [
+          { "value": "VISION_RANGE", "multiply": 0.2 },
+          { "value": "SPEED", "multiply": 0.35 },
+          { "value": "RANGE_DODGE", "add": 0.15 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_type",
     "id": "effect_radiation_aura",
     "name": [ "Eerie Glow" ],
     "desc": [ "Your skin tingles." ],

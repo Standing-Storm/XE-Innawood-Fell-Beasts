@@ -1,6 +1,26 @@
 [
   {
     "type": "monstergroup",
+    "id": "GROUP_FOREST",
+    "monsters": [
+      { "monster": "mon_claw_runner", "weight": 9, "cost_multiplier": 4 },
+      { "monster": "mon_claw_runner", "weight": 3, "cost_multiplier": 4, "pack_size": [ 2, 5 ] },
+      { "monster": "mon_claw_hunter", "weight": 3, "cost_multiplier": 30 },
+      { "monster": "mon_claw_hunter", "weight": 1, "cost_multiplier": 30, "pack_size": [ 2, 5 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "id": "GROUP_SWAMP",
+    "monsters": [
+      { "monster": "mon_claw_runner", "weight": 15, "cost_multiplier": 4 },
+      { "monster": "mon_claw_runner", "weight": 5, "cost_multiplier": 4, "pack_size": [ 2, 5 ] },
+      { "monster": "mon_claw_hunter", "weight": 6, "cost_multiplier": 30 },
+      { "monster": "mon_claw_hunter", "weight": 2, "cost_multiplier": 30, "pack_size": [ 2, 5 ] }
+    ]
+  },
+  {
+    "type": "monstergroup",
     "id": "GROUP_TRIFFID",
     "default": "mon_triffid",
     "monsters": [

@@ -12,6 +12,28 @@
     "max_damage": 350
   },
   {
+    "type": "SPELL",
+    "id": "biokinetic_heightened_reflexes_enhanced_monster",
+    "name": { "str": "Heightened Reflexes enemy check", "//~": "NO_I18N" },
+    "description": {
+      "str": "Applies an even stronger version of Heightened Reflexes when a hostile target is detected.",
+      "//~": "NO_I18N"
+    },
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "MUST_HAVE_CLASS_TO_LEARN" ],
+    "valid_targets": [ "hostile" ],
+    "max_level": 1,
+    "effect": "effect_on_condition",
+    "effect_str": "EOC_FERAL_BIOKINESIS_HEIGHTENED_REFLEXES_ENHANCED_APPLIER",
+    "shape": "blast",
+    "min_range": 60,
+    "max_range": 60
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FERAL_BIOKINESIS_HEIGHTENED_REFLEXES_ENHANCED_APPLIER",
+    "effect": [ { "npc_add_effect": "effect_monster_heightened_reflex_enhanced", "duration": { "math": [ "rng(270,1530)" ] } } ]
+  },
+  {
     "id": "photokinetic_illumination_monster",
     "type": "SPELL",
     "name": { "str": "[Ψ]Illumination Monster" },
@@ -73,6 +95,42 @@
     "range_increment": 1,
     "min_duration": 200,
     "max_duration": 800
+  },
+  {
+    "id": "telepathic_blast_monster",
+    "type": "SPELL",
+    "name": { "str": "[Ψ]Synaptic Overload Monster", "//~": "NO_I18N" },
+    "description": {
+      "str": "Short-circuit and overwhelm a target's brain, causing extreme damage or death.  Does not affect targets without working brains.",
+      "//~": "NO_I18N"
+    },
+    "valid_targets": [ "hostile" ],
+    "flags": [
+      "CONCENTRATE",
+      "NO_PROJECTILE",
+      "SILENT",
+      "RANDOM_DAMAGE",
+      "RANDOM_DURATION",
+      "NO_HANDS",
+      "NO_LEGS",
+      "PERCENTAGE_DAMAGE"
+    ],
+    "difficulty": 1,
+    "max_level": 20,
+    "effect": "attack",
+    "shape": "blast",
+    "affected_body_parts": [ "head" ],
+    "damage_type": "psi_telepathic_damage",
+    "effect_str": "psi_dazed",
+    "min_damage": 5,
+    "max_damage": 25,
+    "damage_increment": 1,
+    "min_range": 5,
+    "max_range": 20,
+    "range_increment": 2.5,
+    "min_duration": 100,
+    "max_duration": 300,
+    "ignored_monster_species": [ "ZOMBIE", "ROBOT", "NETHER", "NETHER_EMANATION", "LEECH_PLANT", "WORM", "FUNGUS", "SLIME", "PSI_NULL" ]
   },
   {
     "id": "telepathic_confusion_monster",
