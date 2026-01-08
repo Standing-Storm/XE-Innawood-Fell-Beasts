@@ -7,6 +7,6 @@
   {
     "id": "eggs_dragon_bird_small",
     "type": "requirement",
-    "components": [ [ [ "egg_dino_small", 1 ], [ "egg_dino_theropod_small", 1 ], [ "egg_claw_runner", 1 ], [ "egg_claw_hunter", 1 ] ] ]
+    "components": [ [ [ "egg_dino_small", 1 ], [ "egg_claw_runner", 1 ], [ "egg_claw_hunter", 1 ] ] ]
   }
 ]

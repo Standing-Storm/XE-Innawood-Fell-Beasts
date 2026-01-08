@@ -59,7 +59,6 @@
     "description": "Pale, round egg laid by a smaller dragon-bird.",
     "material": [ "egg" ],
     "volume": "12 ml",
-    "rot_spawn": { "group": "GROUP_EGG_DINO_SMALL" },
     "vitamins": [ [ "egg_allergen", 1 ] ]
   },
   {
